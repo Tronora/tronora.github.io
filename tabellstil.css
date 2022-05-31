@@ -1,3 +1,21 @@
+
+body {  
+background-color: #1f2527;
+  font-family: VT323, monospace;
+ color: #9fd3e8; 
+}
+
+h1.intro {
+  color: #0e496a;
+  font-size: 48pt;
+  text-align: center;
+
+}
+p {
+  font-size: 14pt;
+  }
+
+
 table {
   border: 1px solid black;
 }
