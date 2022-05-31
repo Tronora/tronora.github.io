@@ -1,0 +1,11 @@
+table {
+  border: 1px solid black;
+}
+
+th {
+  cursor: pointer;
+  user-select: none;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
