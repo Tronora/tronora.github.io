@@ -14,8 +14,10 @@ p {
   font-size: 14pt;
   }
 
-table {
+table, th, td {
   border: 1px solid #9fd3e8;
+  width: 100%;
+  
 }
 
 th {
