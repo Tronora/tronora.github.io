@@ -14,15 +14,16 @@ p {
   font-size: 14pt;
   }
 
-
 table {
-  border: 1px solid black;
+  border: 1px solid #9fd3e8;
 }
 
 th {
   cursor: pointer;
   user-select: none;
-  background-color: black;
-  color: white;
+  background-color: #0e496a;
+  color: #1f2527;
   text-align: left;
 }
+
+
