@@ -30,6 +30,7 @@ th {
   text-align: left;
 }
 
+tr:nth-child(even){background-color: #364043;}
 tr:hover {background-color: #0e496a;}
 tr {
   height: 40px;
