@@ -34,7 +34,7 @@ th {
 tr:nth-child(even){background-color: #364043;}
 tr:hover {background-color: #0e496a;}
 tr {
-  height: 55px;
+  padding: 12px;
 }
 
 
