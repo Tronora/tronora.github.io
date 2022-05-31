@@ -16,6 +16,7 @@ p {
 
 table, th, td {
   border: 1px solid #9fd3e8;
+  table-layout: auto;
   width: 100%;
   font-size: 14pt;
   
@@ -33,7 +34,7 @@ th {
 tr:nth-child(even){background-color: #364043;}
 tr:hover {background-color: #0e496a;}
 tr {
-  height: 40px;
+  height: 55px;
 }
 
 
