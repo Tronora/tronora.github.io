@@ -1,0 +1,87 @@
+/* Place your CSS styles in this file */
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: VT323, monospace;
+}
+.hero__background {
+  width: 100%;
+  height: 200vh;
+  overflow: hidden;
+  background-image: url("stars-2643089_1920.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: repeat-y;
+  animation: scroll;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  z-index: 0;
+}
+
+.hero__text {
+  z-index: 1;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: hsl(197, 61%, 77%);
+  background-color: rgba(0, 0, 0, .5);
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  max-width: 500px;
+  height: 350px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 13px;
+  outline: 1px solid white;
+}
+@media(min-width: 560px) {
+  .hero__text {
+    height: 250px;
+  }
+}
+
+.hero__backgroundWrapper {
+  max-height: 100vh;
+  overflow:hidden;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buttons a {
+  background-color: hsl(197, 61%, 77%, .5);
+  color: white;
+  border: 2px solid hsl(197, 61%, 44%);
+  text-decoration: none;
+  padding: .5rem 1rem;
+  border-radius: 15px;
+  text-transform: none;
+}
+
+.buttons a:hover {
+  background-color: white;
+  color: #234;
+  transition: 600ms;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
