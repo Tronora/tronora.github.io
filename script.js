@@ -4,11 +4,13 @@
 // På den dupliserte bytter du alle steder det står personellTable med f.eks spacecraftTable
 // (gitt at du har en tabell med klassenavn spacecraftTable)
 
+document.addEventListener('DOMContentLoaded', () => {
 let personellTable = document.querySelector('.personellTable')
 personellTable.querySelector('thead').addEventListener('click', ev => {
   getClickedHeaderAndSort(personellTable, ev.target);
 })
-
+})
+  
 // dette er en nye funksjon som tar seg av det som den switch / case saken gjorde tidligere
 function getClickedHeaderAndSort(table, target) {
   let column = 0;
