@@ -1,1 +1,20 @@
 
+
+body { 
+    background: rgb(31,37,39);
+background: linear-gradient(0deg, rgba(31,37,39,1) 46%, rgba(85,85,85,1) 100%); 
+background-repeat: no-repeat; 
+font-family: monospace;
+color: #9fd3e8;
+font-size: 14pt
+}
+
+h1 {
+  color: #0e496a;
+  text-align: center;
+
+}
+.footer {
+text-align: center;
+color:#0e496a;
+}
