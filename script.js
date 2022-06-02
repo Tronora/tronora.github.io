@@ -1,16 +1,30 @@
-
-
-// Kopier de fire linjene under her hvis du skal ha en tabell til (fra 'let personellTable')
-// På den dupliserte bytter du alle steder det står personellTable med f.eks spacecraftTable
-// (gitt at du har en tabell med klassenavn spacecraftTable)
-
+/**
+ *  Scriptet lytter til når HTML-dokumentet er lastet inn
+ *  Den finner så en gitt tabell basert på klassenavn. Hvis tabellen finnes
+ *  lytter vi etter klikk på header-raden av tabellen.
+ *  Når det blir klikket på header-raden kaller vi en sorteringsfunksjonen
+ *  hvor vi sender inn tabell-elementet, og hvilket element som ble klikket på
+ */
 document.addEventListener('DOMContentLoaded', () => {
-let personellTable = document.querySelector('.personellTable')
-personellTable.querySelector('thead').addEventListener('click', ev => {
-  getClickedHeaderAndSort(personellTable, ev.target);
+  // Duplier de seks linjene under her hvis du skal ha en tabell til (fra 'let personellTable')
+  let personellTable = document.querySelector('.personellTable')
+  if (personellTable) {
+    personellTable.querySelector('thead').addEventListener('click', ev => {
+      getClickedHeaderAndSort(personellTable, ev.target);
+    })
+  }
+  // til hit
+ 
+  // Utkommentert eksempel for din neste tabell:
+  // let spacecraftTable = document.querySelector('.spacecraftTable')
+  // if (spacecraftTable) {
+  // spacecraftTable.querySelector('thead').addEventListener('click', ev => {
+  //    getClickedHeaderAndSort(spacecraftTable, ev.target);
+  //  })
+  // }
+
 })
-})
-  
+
 // dette er en nye funksjon som tar seg av det som den switch / case saken gjorde tidligere
 function getClickedHeaderAndSort(table, target) {
   let column = 0;
@@ -38,12 +52,12 @@ function sortTable(column) {
       x = rows[i].getElementsByTagName("TD")[column];
       y = rows[i + 1].getElementsByTagName("TD")[column];
       if (dir == "asc") {
-        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+        if (x.innerText.toLowerCase() > y.innerText.toLowerCase()) {
           shouldSwitch = true;
           break;
         }
       } else if (dir == "desc") {
-        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+        if (x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
           shouldSwitch = true;
           break;
         }
@@ -61,3 +75,5 @@ function sortTable(column) {
     }
   }
 }
+
+
