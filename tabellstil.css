@@ -15,7 +15,13 @@ h1.intro {
   text-align: center;
 }
 
-table {
+h1.rom {
+  color: #0e496a;
+  font-size: 48pt;
+  text-align: left;
+}
+
+table.personellTable {
   width: 100%;
   font-size: 18px;
 }
