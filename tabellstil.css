@@ -21,7 +21,7 @@ h1.rom {
   text-align: left;
 }
 
-table.personellTable {
+table {
   width: 100%;
   font-size: 18px;
 }
@@ -78,5 +78,30 @@ td:nth-of-type(8) {
   width: 7ch;
 } 
   
- 
- 
+ .spacecraftTable td:nth-of-type(1) {
+  width: 3ch;
+}
+.spacecraftTable td:nth-of-type(2) {
+  width: 4ch;
+} 
+.spacecraftTable td:nth-of-type(3) {
+  width: 10ch;
+}
+ .spacecraftTable td:nth-of-type(4) {
+  width: 4ch;
+}
+.spacecraftTable td:nth-of-type(5) {
+  width: 9ch;
+}
+.spacecraftTable td:nth-of-type(6) {
+  width: 4ch;
+}
+.spacecraftTable td:nth-of-type(7) {
+  width: 10ch;
+}
+.spacecraftTable td:nth-of-type(8) {
+  width: 50ch;
+} 
+ .spacecraftTable td:nth-of-type(9) {
+  width: 12ch;
+} 
