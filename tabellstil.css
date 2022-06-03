@@ -47,6 +47,15 @@ th {
   padding: 0 12px;
 }
 
+.spacecraftTable th {
+  cursor: pointer;
+  user-select: none;
+  background-color: #0e496a;
+  color: #1f2527;
+  text-align: left;
+  padding: 0 12px;
+}
+
 tr:nth-child(even){background-color: #364043;}
 tr:hover {background-color: #0e496a;}
 
