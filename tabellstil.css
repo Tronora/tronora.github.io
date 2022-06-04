@@ -34,8 +34,7 @@ header {
   list-style: none;
   border-radius: 15px;
    padding: 0;
-      gap: 1rem;
-  }
+        }
 
 .spacecraft-ships a {
   display: block;
