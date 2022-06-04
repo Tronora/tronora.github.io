@@ -33,7 +33,8 @@ header {
   justify-content: space-around;
   list-style: none;
    padding: 0;
-      gap: 5rem;
+      gap: 1rem;
+  border-radius: 15px
 }
 
 .spacecraft-ships a {
