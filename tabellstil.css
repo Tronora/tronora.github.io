@@ -32,9 +32,24 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
-   padding: 12px;
+   padding: 0;
       gap: 5rem;
 }
+
+.spacecraft-ships a {
+  display: block;
+  background-color: #0e496a;
+  padding: 12px;
+  /* Svart magi: */
+  transition: background-color 300ms, color 300ms;
+}
+
+
+/* Legg på en enkel hover-effekt */
+.spacecraft-ships a:hover {
+  background-color: white;
+  color: #0e496a;
+} 
 
 table {
   width: 100%;
