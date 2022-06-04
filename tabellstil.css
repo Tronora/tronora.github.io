@@ -32,8 +32,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
-  background-color: #0e496a;
-  padding: 12px;
+   padding: 12px;
       gap: 1rem;
 }
 
