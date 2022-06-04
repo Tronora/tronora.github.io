@@ -32,6 +32,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
+  border-radius: 15px;
    padding: 0;
       gap: 1rem;
   }
@@ -40,8 +41,7 @@ header {
   display: block;
   background-color: #0e496a;
   padding: 12px;
-  border-radius: 15px;
-  /* Svart magi: */
+    /* Svart magi: */
   transition: background-color 300ms, color 300ms;
 }
 
