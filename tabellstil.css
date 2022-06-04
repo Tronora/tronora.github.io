@@ -42,7 +42,7 @@ header {
   background-color: #0e496a;
   padding: 12px;
     /* Svart magi: */
-  transition: background-color 300ms, color 300ms;
+  transition: background-color 400ms, color 300ms;
 }
 
 
