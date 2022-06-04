@@ -34,13 +34,13 @@ header {
   list-style: none;
    padding: 0;
       gap: 1rem;
-  border-radius: 15px
-}
+  }
 
 .spacecraft-ships a {
   display: block;
   background-color: #0e496a;
   padding: 12px;
+  border-radius: 15px;
   /* Svart magi: */
   transition: background-color 300ms, color 300ms;
 }
