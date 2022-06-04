@@ -23,7 +23,7 @@ h1.rom {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .spacecraft-ships {
@@ -34,8 +34,7 @@ header {
   list-style: none;
   background-color: #0e496a;
   padding: 12px;
-  margin-bottom: 0px;
-  gap: 1rem;
+      gap: 1rem;
 }
 
 table {
