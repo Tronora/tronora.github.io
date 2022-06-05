@@ -1,151 +1,156 @@
 body {  
-background-color: #1f2527;
-  font-family: VT323, monospace;
- color: #9fd3e8; 
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-h1.intro {
-  color: #0e496a;
-  font-size: 48pt;
-  text-align: center;
-}
-
-h1.rom {
-  color: #0e496a;
-  font-size: 48pt;
-  text-align: left;
-}
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.spacecraft-ships {
-  font-size: 18px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  list-style: none;
-     padding: 0;
-        }
-
-.spacecraft-ships a {
-  display: block;
-  background-color: #0e496a;
-  padding: 12px;
-  border-radius: 15px;
-    /* Svart magi: */
-  transition: background-color 400ms, color 300ms;
-}
-
-
-/* Legg på en enkel hover-effekt */
-.spacecraft-ships a:hover {
-  background-color: white;
-  color: #0e496a;
-} 
-
-table {
-  width: 100%;
-  font-size: 18px;
-}
+  background-color: #1f2527;
+    font-family: VT323, monospace;
+   color: #9fd3e8; 
+  }
   
-a {color:#dddddd;
-  text-decoration: none;
-}
-
-p {
-  font-size: 14pt;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
-
-table, th, td {
-  border: 1px solid #9fd3e8;
+  
+  h1.intro {
+    color: #0e496a;
+    font-size: 48pt;
+    text-align: center;
   }
-
-th {
-  cursor: pointer;
-  user-select: none;
-  background-color: #0e496a;
-  color: #1f2527;
-  text-align: left;
-  padding: 0 12px;
-}
-
-.spacecraftTable th {
-  cursor: pointer;
-  user-select: none;
-  background-color: #0e496a;
-  color: #1f2527;
-  font-weight: bolder;
-  text-align: left;
-  padding: 12px;
-}
-
-tr:nth-child(even){background-color: #364043;}
-tr:hover {background-color: #0e496a;}
-
-td {
+  
+  h1.rom {
+    color: #0e496a;
+    font-size: 48pt;
+    text-align: left;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .spacecraft-ships {
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+       padding: 0;
+          }
+  
+  .spacecraft-ships a {
+    display: block;
+    background-color: #0e496a;
     padding: 12px;
-}
-  td:nth-of-type(1) {
-  width: 3ch;
-}
- td:nth-of-type(2) {
-  width: 20ch;
-} 
-td:nth-of-type(3) {
-  width: 7ch;
-}
- td:nth-of-type(4) {
-  width: 10ch;
-}
-td:nth-of-type(5) {
-  width: 50ch;
-}
-td:nth-of-type(6) {
-  width: 7ch;
-}
-td:nth-of-type(7) {
-  width: 4ch;
-}
-td:nth-of-type(8) {
-  width: 7ch;
-} 
- 
-.strike {
-  text-decoration: line-through;
-} 
+          /* Kul effekt: */
+    transition: background-color 400ms, color 300ms;
+  }
+  
+  
+  /* Legg på en enkel oversvevings-effekt */
+  .spacecraft-ships a:hover {
+    background-color: #ddd;
+    color: #0e496a;
+  } 
+  
+  table {
+    width: 100%;
+    font-size: 18px;
+  }
+    
+  a {color:#dddddd;
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 14pt;
+    }
+  
+  table, th, td {
+    border: 1px solid #9fd3e8;
+    }
+  
+  th {
+    cursor: pointer;
+    user-select: none;
+    background-color: #0e496a;
+    color: #1f2527;
+    text-align: left;
+    padding: 0 12px;
+  }
+  
+  .spacecraftTable th {
+    cursor: pointer;
+    user-select: none;
+    background-color: #0e496a;
+    color: #1f2527;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  tr:nth-child(even){background-color: #364043;}
+  tr:hover {background-color: #0e496a;}
+  
+  td {
+      padding: 12px;
+  }
+    td:nth-of-type(1) {
+    width: 3ch;
+  }
+   td:nth-of-type(2) {
+    width: 20ch;
+  } 
+  td:nth-of-type(3) {
+    width: 7ch;
+  }
+   td:nth-of-type(4) {
+    width: 10ch;
+  }
+  td:nth-of-type(5) {
+    width: 50ch;
+  }
+  td:nth-of-type(6) {
+    width: 7ch;
+  }
+  td:nth-of-type(7) {
+    width: 4ch;
+  }
+  td:nth-of-type(8) {
+    width: 7ch;
+  } 
+   
+  .strike {
+    text-decoration: line-through;
+  } 
+  
+   .spacecraftTable td:nth-of-type(1) {
+    width: 3ch;
+  }
+  .spacecraftTable td:nth-of-type(2) {
+    width: 4ch;
+  } 
+  .spacecraftTable td:nth-of-type(3) {
+    width: 11ch;
+  }
+   .spacecraftTable td:nth-of-type(4) {
+    width: 4ch;
+  }
+  .spacecraftTable td:nth-of-type(5) {
+    width: 9ch;
+  }
+  .spacecraftTable td:nth-of-type(6) {
+    width: 4ch;
+  }
+  .spacecraftTable td:nth-of-type(7) {
+    width: 11ch;
+  }
+  .spacecraftTable td:nth-of-type(8) {
+    width: 65ch;
+  } 
+   .spacecraftTable td:nth-of-type(9) {
+    width: 15ch;
+  } 
+  
+  
 
- .spacecraftTable td:nth-of-type(1) {
-  width: 3ch;
-}
-.spacecraftTable td:nth-of-type(2) {
-  width: 4ch;
-} 
-.spacecraftTable td:nth-of-type(3) {
-  width: 11ch;
-}
- .spacecraftTable td:nth-of-type(4) {
-  width: 4ch;
-}
-.spacecraftTable td:nth-of-type(5) {
-  width: 9ch;
-}
-.spacecraftTable td:nth-of-type(6) {
-  width: 4ch;
-}
-.spacecraftTable td:nth-of-type(7) {
-  width: 11ch;
-}
-.spacecraftTable td:nth-of-type(8) {
-  width: 65ch;
-} 
- .spacecraftTable td:nth-of-type(9) {
-  width: 15ch;
-} 
+
