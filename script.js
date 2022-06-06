@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // til hit
  
   // Utkommentert eksempel for din neste tabell:
-  // let spacecraftTable = document.querySelector('.spacecraftTable')
-  // if (spacecraftTable) {
-  // spacecraftTable.querySelector('thead').addEventListener('click', ev => {
-  //    getClickedHeaderAndSort(spacecraftTable, ev.target);
-  //  })
-  // }
+   let spacecraftTable = document.querySelector('.spacecraftTable')
+   if (spacecraftTable) {
+   spacecraftTable.querySelector('thead').addEventListener('click', ev => {
+      getClickedHeaderAndSort(spacecraftTable, ev.target);
+    })
+  }
 
 })
 
