@@ -54,14 +54,14 @@ body {
   overflow:hidden;
 }
 
-.buttons {
+.episodetabell {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
 }
 
-.buttons a {
+.episodetabell a {
   background-color: hsl(197, 61%, 77%, .5);
   color: white;
   border: 2px solid hsl(197, 61%, 44%);
@@ -71,7 +71,7 @@ body {
   text-transform: none;
 }
 
-.buttons a:hover {
+.episodetabell a:hover {
   background-color: white;
   color: #234;
   transition: 600ms;
