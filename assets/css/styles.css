@@ -1,16 +1,28 @@
 /* Place your CSS styles in this file */
-
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* Standardregler for alle sider */
 body {
   margin: 0;
   padding: 0;
   font-family: VT323, monospace;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+/* Forside */
 .hero__background {
   width: 100%;
   height: 200vh;
   overflow: hidden;
-  background-image: url("stars-2643089_1920.jpg");
+  background-image: url("/assets/img/stars-2643089_1920.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -27,7 +39,7 @@ body {
 .hero__text {
   z-index: 1;
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -43,6 +55,7 @@ body {
   border-radius: 13px;
   outline: 1px solid white;
 }
+
 @media(min-width: 560px) {
   .hero__text {
     height: 250px;
@@ -51,7 +64,7 @@ body {
 
 .hero__backgroundWrapper {
   max-height: 100vh;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .buttons {
@@ -81,7 +94,33 @@ body {
   from {
     transform: translateY(-50%);
   }
+
   to {
     transform: translateY(0);
   }
 }
+
+/* Forside-knapper ferdig */
+
+/* Prologside */
+.container {
+  width: 40%;
+  margin: 0 auto;
+  font-family: monospace;
+  color: #9fd3e8;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, .75);
+  padding: 1rem 2rem;
+}
+
+.background-image {
+  position: fixed;
+  filter: hue-rotate(180deg);
+  mix-blend-mode: color-dodge;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Prologside ferdig */
