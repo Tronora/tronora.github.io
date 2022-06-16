@@ -2,68 +2,62 @@
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 body {
-  margin: 0;
-  padding: 0;
-  font-family: VT323, monospace;
-}
-.hero__background {
-  width: 100%;
-  height: 200vh;
-  overflow: hidden;
-  background-image: url("stars-2643089_1920.jpg");
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-repeat: repeat-y;
-  animation: scroll;
-  animation-duration: 50s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  z-index: 0;
+  
+  background-image: url(stars-2643089epi.jpg);
+  font-family: monospace;
+  
 }
 
-.hero__text {
-  z-index: 1;
-  position: fixed;
-  top:0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  color: hsl(197, 61%, 77%);
-  background-color: rgba(0, 0, 0, .5);
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  max-width: 500px;
-  height: 350px;
+h1 {
+  color: #9fd3e8;
+    font-size: 36px;
   text-align: center;
-  overflow: hidden;
-  border-radius: 13px;
-  outline: 1px solid white;
-}
-@media(min-width: 560px) {
-  .hero__text {
-    height: 250px;
-  }
 }
 
-.hero__backgroundWrapper {
-  max-height: 100vh;
-  overflow:hidden;
-}
+.episode {
+       border: 1px solid #9fd3e8;
+       text-align: left;
+              width: 45%;
+       margin: auto;
+   
+    }
+
 
 .episodetabell {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+   cursor: pointer;
+   border: 1px solid #9fd3e8;
+   border-collapse: collapse;
+       user-select: none;
+    background-color: #0e496a;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 12px;
+   }
+  
+ td {
+  font-size: 18px;
+  color: #9fd3e8;
+    padding: 12px;
 }
+  td:nth-of-type(1) {
+  width: 3ch;
+}
+ td:nth-of-type(2) {
+  width: 30ch;
+} 
+td:nth-of-type(3) {
+  width: 7ch;
+}
+ 
+/* Kan bakgrunn være none? Vil bildet skinne gjennom? */
+tr:nth-child(even){background-color: #1f2527;}
+  tr:hover {background-color: #0e496a;}
+
 
 .episodetabell a {
   background-color: hsl(197, 61%, 77%, .5);
-  color: white;
+  color: #ddd;
   border: 2px solid hsl(197, 61%, 44%);
   text-decoration: none;
   padding: .5rem 1rem;
@@ -72,7 +66,7 @@ body {
 }
 
 .episodetabell a:hover {
-  background-color: white;
+  background-color: #ddd;
   color: #234;
   transition: 600ms;
 }
