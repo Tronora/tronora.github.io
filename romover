@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<!-- Her kommer en oversikts-side over de fire romskiptypene.-->
+<!-- Litt tekst. Resten kommer på de respektive sidene -->
+
+<a href="#">Kroneskip</a>
+
+<a href="#">IP-skip</a>
+
+<a href="#">Stjerneskip</a>
+
+<a href="#">Galakseklasse</a>
+
+<!-- Fancy layout. Noe animasjon-->
+
+<!-- Kanskje OpenAI og Dall_E kan bidra med romskiptegning etter spesifikasjoner -->
