@@ -124,3 +124,11 @@ h6 {
 }
 
 /* Prologside ferdig */
+
+/* Fjerner filter på bakgrunnsbilde på bonus-side */
+
+.uten {
+  filter: none
+}
+
+/* Filter av */
