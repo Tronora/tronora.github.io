@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<title>Begrepsforklaringer</title>
+
+<!-- Her kommer en alfabetisk ordliste i tabellform som bygges på etter hvert.
+Velger å bruke tbody for å ha en liste med overskriftsrad som ligger fast, trur eg -->
+
+<body>
+
+<h1>Fornuftig overskrift</h1>
+
+<table class="ord">
+<thead>
+<tr>
+<th>Ord</th>
+<th>Forklaring</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Test</td>
+<td>Funker</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+
