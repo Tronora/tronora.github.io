@@ -118,6 +118,9 @@ h6 {
   font-size: 48px;
 }
 
+.tittel {text-align: center;
+}
+
 .background-image {
   position: fixed;
   filter: hue-rotate(180deg);
