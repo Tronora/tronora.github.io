@@ -66,7 +66,8 @@ h6 {
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 1.25rem;
   justify-content: center;
-  gap: 30px;
+  justify-items: center;
+  gap: 15px;
 }
 
 .buttons a {
@@ -77,6 +78,7 @@ h6 {
   padding: .5rem 1rem;
   border-radius: 15px;
   text-transform: none;
+  width: min-content;
 }
 
 .buttons a:hover {
