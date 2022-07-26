@@ -49,7 +49,7 @@ h6 {
   padding: 1rem 2rem;
   text-transform: uppercase;
   max-width: 500px;
-  height: 250px;
+  height: min-content;
   text-align: center;
   overflow: hidden;
   border-radius: 13px;
@@ -64,8 +64,9 @@ h6 {
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.25rem;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .buttons a {
