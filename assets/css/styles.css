@@ -25,6 +25,7 @@ h6 {
   background-image: url("/assets/img/stars-2643089_1920.jpg");
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-repeat: repeat-y;
