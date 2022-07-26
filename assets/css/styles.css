@@ -25,7 +25,6 @@ h6 {
   background-image: url("../img/stars-2643089_1920.jpg");
   background-size: cover;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-repeat: repeat-y;
@@ -50,17 +49,11 @@ h6 {
   padding: 1rem 2rem;
   text-transform: uppercase;
   max-width: 500px;
-  height: 350px;
+  height: 250px;
   text-align: center;
   overflow: hidden;
   border-radius: 13px;
   outline: 1px solid white;
-}
-
-@media(min-width: 560px) {
-  .hero__text {
-    height: 250px;
-  }
 }
 
 .hero__backgroundWrapper {
@@ -69,8 +62,8 @@ h6 {
 }
 
 .buttons {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   gap: 15px;
 }
