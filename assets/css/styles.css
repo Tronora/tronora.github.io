@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
+  margin-top: 0; margin-bottom: .7rem;
 }
 
 /* Forside */
@@ -46,7 +46,7 @@ h6 {
   margin: auto;
   color: hsl(197, 61%, 77%);
   background-color: rgba(0, 0, 0, .5);
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   text-transform: uppercase;
   max-width: 500px;
   height: min-content;
@@ -63,11 +63,10 @@ h6 {
 
 .buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   font-size: 1.25rem;
   justify-content: center;
-  justify-items: center;
-  gap: 15px;
+    gap: 15px;
 }
 
 .buttons a {
@@ -75,11 +74,10 @@ h6 {
   color: white;
   border: 2px solid hsl(197, 61%, 44%);
   text-decoration: none;
-  padding: .5rem 1rem;
-  border-radius: 15px;
+  padding: .4rem 2rem;
+    border-radius: 15px;
   text-transform: none;
-  width: min-content;
-}
+  }
 
 .buttons a:hover {
   background-color: white;
