@@ -36,6 +36,8 @@ h6 {
   z-index: 0;
 }
 
+/* For PC */
+
 .hero__text {
   z-index: 1;
   position: fixed;
@@ -48,12 +50,13 @@ h6 {
   background-color: rgba(0, 0, 0, .5);
   padding: 1rem 1rem;
   text-transform: uppercase;
-  max-width: 500px;
+  max-width: 480px;
   height: min-content;
   text-align: center;
   overflow: hidden;
   border-radius: 13px;
   outline: 1px solid white;
+
 }
 
 .hero__backgroundWrapper {
@@ -61,14 +64,31 @@ h6 {
   overflow: hidden;
 }
 
+/* For mobil */
+
 .buttons {
   display: grid;
-  grid-template-columns: auto auto auto;
-  font-size: 1.25rem;
+  grid-template-columns: auto auto;
+  font-size: 1rem;
   justify-content: center;
-    gap: 15px;
+  
+    gap: 8px;
 }
 
+
+
+/* For PC */
+@media (min-width: 560px) {
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.25rem;
+  justify-content: center;
+    gap: 10px;
+}
+
+}
 .buttons a {
   background-color: hsl(197, 61%, 77%, .5);
   color: white;
