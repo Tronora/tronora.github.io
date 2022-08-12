@@ -23,7 +23,7 @@ h1 {
 .episode {
   border: 1px solid #9fd3e8;
   text-align: left;
-  width: 45%;
+  width: 35%;
 }
 
 
@@ -54,7 +54,7 @@ td:nth-of-type(2) {
 }
 
 td:nth-of-type(3) {
-  width: 7ch;
+  width: 8ch;
 }
 
 /* Kan bakgrunn være none? Vil bildet skinne gjennom? */
@@ -66,6 +66,10 @@ tr:hover {
   background-color: #0e496a;
 }
 
+.lenker {
+  text-decoration: none;
+  color:#9fd3e8;
+}
 
 .episodetabell a {
   background-color: hsl(197, 61%, 77%, .5);
