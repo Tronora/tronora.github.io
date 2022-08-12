@@ -17,6 +17,17 @@ h6 {
   margin-top: 0; margin-bottom: .7rem;
 }
 
+/* fra skjermen er 0px og oppover */
+.desktop-only {display: none;}
+.mobile-only {display: block;}
+
+
+/* fra skjermen er 768px og oppover, tablet-size ish */
+@media(min-width: 768px) {
+  .mobile-only {display: none;}
+  .desktop-only {display: block;}
+} 
+
 /* Forside */
 .hero__background {
   width: 100%;
