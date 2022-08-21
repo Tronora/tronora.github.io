@@ -78,14 +78,25 @@ h6 {
 /* For mobil */
 
 .buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  font-size: 1rem;
-  justify-content: center;
-  
-    gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+      font-size: 1rem;
+      justify-content: center;
+      gap: 8px;
+      }
+      
+.buttons a {
+  flex: 0 0 28%;
 }
 
+
+.buttons a:nth-child(8) {
+  order: 9;
+}
+
+.buttons a:nth-child(9) {
+  order: 8;
+}  
 
 
 /* For PC */
@@ -100,6 +111,8 @@ h6 {
 }
 
 }
+
+
 .buttons a {
   background-color: hsl(197, 61%, 77%, .5);
   color: white;
@@ -109,6 +122,15 @@ h6 {
     border-radius: 15px;
   text-transform: none;
   }
+
+  .buttons a:nth-child(8) {
+    order: 8;
+  }
+  
+  .buttons a:nth-child(9) {
+    order: 9
+  }  
+  
 
 .buttons a:hover {
   background-color: white;
