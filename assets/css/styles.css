@@ -86,7 +86,7 @@ h6 {
       }
       
 .buttons a {
-  flex: 0 0 28%;
+  flex: 0 0 30%;
 }
 
 
@@ -122,14 +122,6 @@ h6 {
     border-radius: 15px;
   text-transform: none;
   }
-
-  .buttons a:nth-child(8) {
-    order: 8;
-  }
-  
-  .buttons a:nth-child(9) {
-    order: 9
-  }  
   
 
 .buttons a:hover {
