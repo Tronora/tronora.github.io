@@ -9,8 +9,11 @@
     max-width: 750px;
     font-family: monospace;
     font-size: 21px;
-    background: #1f2527;
-    color: #9fd3e8;
+    background-color: #1f2527;
+    background-image: url("/assets/img/galaxy-11139_1280.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+        color: #9fd3e8;
     
   }
   
