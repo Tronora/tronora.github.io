@@ -1,8 +1,62 @@
+  * {
+    box-sizing: border-box; 
+   }
+   
+   body {
+     margin: 0;
+     font-family: monospace, sans-serif;
+   }
+   
+   .header {
+     position: absolute;
+     left: 7.5%;
+     top: 7.5%;
+     background-color: rgba(0,0,0,.15);
+     padding: 1.5rem;
+     max-width: 35ch;
+     border-radius: 15px;
+     backdrop-filter: blur(10px);
+   } 
+     .header__title {
+       color: #0e496a;
+       margin: 0;
+     }
 
-* {
-    box-sizing: border-box;
-  }
-  
+     .header__body {
+       color: #9fd3e8;
+       font-size: 21px;
+       line-height: 1.3;
+       margin-bottom: 1rem;
+     }
+   
+   
+   .btn {
+     background-color: #9fd3e8;
+     color: #1f2527;
+     padding: .75rem 1.5rem;
+     border-radius: 2rem;
+     display: inline-block;
+     text-decoration: none;
+     font-size: 1.25rem;
+     font-weight: 700;
+     transition: color 300ms;
+   }
+
+     button:hover {
+       color: white;
+     }
+   
+   
+   .bg_img {
+     display: block;
+     width: 100%;
+     height: 100vh;
+     object-fit: cover;
+   }
+
+
+
+  /* Gammel
   body {
     margin: 7.5%;
     width: 50%;
@@ -16,6 +70,7 @@
         color: #9fd3e8;
     
   }
+  
   
   h1 {
     font-size: 48px;
@@ -37,8 +92,13 @@
   button:hover,
   button:focus {
     background-color: #75c3ec;
-    /*opacity: .5;*/
+    Gammel */
+    /*opacity: .5; Denne kommer i tillegg */
+
+    /*
     transition-duration: .3s;
   }
 
+  */
+  
   
