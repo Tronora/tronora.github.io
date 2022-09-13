@@ -18,3 +18,12 @@ h1 {
   text-align: center;
   color: #4a646c;
 }
+
+a {
+  color:#6ebddc;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#d8edf6;
+}
