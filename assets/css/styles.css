@@ -142,7 +142,7 @@ h6 {
 
 /* Forside-knapper ferdig */
 
-/* Prologside */
+/* Manussider */
 .container {
   width: 40%;
   margin: 0 auto;
@@ -152,6 +152,12 @@ h6 {
   background-color: rgba(0, 0, 0, .75);
   padding: 1rem 2rem;
   
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 70%;
+}
 }
 
 .midt {text-align: center;
@@ -171,7 +177,12 @@ h6 {
   height: 100%;
 }
 
-/* Prologside ferdig */
+.blokk {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Manussider ferdig */
 
 /* Fjerner filter på bakgrunnsbilde på bonus-side */
 
