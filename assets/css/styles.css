@@ -202,6 +202,9 @@ h6 {
 }
 
 .planet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: rgb(159, 211, 232);
 background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35%, rgba(31,37,39,1) 100%);
   min-height: 100vh;
@@ -209,11 +212,19 @@ background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35
   font-family: monospace;
   color: #9fd3e8;
   font-size: 24px;
+  text-align: center;
   
 
 }
 
 #lilla {
-    mix-blend-mode: color-burn;
-    filter: hue-rotate(30deg);
+  margin-top: 20px;
+  width: 300px;
+  border-radius: 50%;
+                    filter: grayscale(30%) hue-rotate(30deg);
+}
+
+.rundet {
+  width: 170px;
+  padding: 1rem 0rem;
 }
