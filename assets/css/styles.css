@@ -213,9 +213,15 @@ background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35
   color: #9fd3e8;
   font-size: 24px;
   text-align: center;
+}
+
+  .krabbe {
+    background-image: url("/assets/img/crabbak.jpg");
+    width: 80%;
+  }
   
 
-}
+
 
 #lilla {
   margin-top: 20px;
