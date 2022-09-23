@@ -197,14 +197,12 @@ h6 {
 .skygge {
   color: hsl(197, 61%, 44%);
   text-shadow: 5px -5px 30px #0e496a;
-  /*text-align: right;*/
-  /*margin-top: 0;*/
+  padding-bottom: 25px;
+    /*margin-bottom: 25px;*/
+    
 }
 
 .planet {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background: rgb(159, 211, 232);
 background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35%, rgba(31,37,39,1) 100%);
   min-height: 100vh;
@@ -212,27 +210,37 @@ background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35
   font-family: monospace;
   color: #9fd3e8;
   font-size: 24px;
-  text-align: center;
+  /**/
 }
 
   .krabbe {
-    background-image: url("/assets/img/crabbak.jpg");
+        background-image: url("/assets/img/crabbak.jpg");
     background-size: cover;
     width: 80%;
+    margin: auto;
+    text-align: center;
   }
   
-
-
+  .hero-container {
+    display: flex;
+    justify-content: space-around;
+  }
 
 #lilla {
   margin-top: 50px;
-  margin-bottom: 10px;
-  width: 150px;
-  border-radius: 50%;
+  /*margin-bottom: 30px;*/
+    width: 150px;
+      /*border-radius: 50%;*/
                     /*filter: grayscale(30%) hue-rotate(30deg);*/
 }
 
 .rundet {
   width: 170px;
   padding: 1rem 0rem;
+}
+
+.fakta {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
