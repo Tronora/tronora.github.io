@@ -1,4 +1,14 @@
-/* Place your CSS styles in this file */
+/* Place your CSS styles in this file */ 
+
+/*
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+input,button, textarea, select {font: inherit;}*/
+
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* Standardregler for alle sider */
@@ -61,7 +71,8 @@ h6 {
   background-color: rgba(0, 0, 0, .5);
   padding: 1rem 1rem;
   text-transform: uppercase;
-  max-width: 480px;
+  /*max-width: 480px;*/
+  max-width: 33%;
   height: min-content;
   text-align: center;
   overflow: hidden;
@@ -144,6 +155,9 @@ h6 {
 
 /* Manussider */
 .container {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 40%;
   margin: 0 auto;
   font-family: monospace;
@@ -233,7 +247,7 @@ background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35
     
     .fakta {
       display:flex;
-      justify-content: space-around;
+            justify-content: space-around;
                   gap: 3rem;
             
     }
@@ -254,7 +268,3 @@ background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35
   flex-shrink: 0;
 }
 
-/*.hero-container {
-    display: flex;
-        justify-content: space-around;
-  }*/
