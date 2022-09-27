@@ -71,9 +71,8 @@ h6 {
   background-color: rgba(0, 0, 0, .5);
   padding: 1rem 1rem;
   text-transform: uppercase;
-  /*max-width: 480px;*/
-  max-width: 33%;
-  height: min-content;
+  max-width: 480px;
+    height: min-content;
   text-align: center;
   overflow: hidden;
   border-radius: 13px;
