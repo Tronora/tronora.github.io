@@ -247,6 +247,7 @@ background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35
     
     .fakta {
       display:flex;
+      flex-wrap: wrap;
             justify-content: space-around;
                   gap: 3rem;
             
@@ -258,6 +259,10 @@ background: linear-gradient(180deg, rgba(159,211,232,1) 0%, rgba(14,73,106,1) 35
       width: 100px;
     }
     
+    .faktatekst {
+      max-width: 360px;
+    }
+
 .rundet {
   width: 20%;
     padding: 1rem 0rem;
