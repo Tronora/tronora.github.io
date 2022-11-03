@@ -1,0 +1,190 @@
+/*Ny stilfil for hele sulamitten*/
+
+:root {
+/*Farver */
+  --farve-mørkegrå: 195 11% 13%;
+  --farve-mørkeblå: 201 76% 23%;
+  --farve-lyseblå: 197 61% 76%;
+  --farve-lysegrå: 193 19% 26%;
+  --farve-gul: 44 91% 83%;
+  --farve-brun: 44 91% 13%;
+
+/*Skriftstørrelse*/
+/*--fs-900: 9.375rem;
+--fs-800: 6.25rem;
+--fs-700: 3.5rem;*/
+--fs-650: 3rem; /*Overskrift manus*/
+--fs-600: 2rem;
+/*--fs-500: 1.75rem;*/
+--fs-400: 1.25rem; /*20px, brødtekst*/
+--fs-350: 1.2rem; /*knapper*/
+--fs-300: 1rem;
+/*--fs-200: 0.875rem;*/
+
+/*Skrifttype*/
+    --ff-serif: monospace; /*brødtekst*/
+   /* --ff-overskrifter: , sans-serif; mangler!!
+    --ff-store overskrifter: , sans-serif; mangler!!*/
+}
+
+/* ----------------------
+Nullstilling fra Andy Bell: https://piccalil.li/blog/a-modern-css-reset/
+------------------------*/
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-400);
+          min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  /*line-height: 1.5;    venter litt med den*/
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Utility classes */
+
+/* General */
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
+}
+
+/* Farver */
+
+.bg-grå { background-color: hsl( var(--farve-mørkegrå) );}
+.bg-blå { background-color: hsl( var(--farve-mørkeblå) );}
+.bg-brun {background-color: hsl( var(--farve-brun) / .6);}
+
+
+.skrift-lgrå { color: hsl( var(--farve-lysegrå) );} 
+.skrift-mblå { color: hsl( var(--farve-mørkeblå) );}
+.skrift-lblå { color: hsl( var(--farve-lyseblå) );}
+.skrift-gul { color: hsl( var(--farve-gul) );}
+
+/* Typografi */
+
+.ff-serif { font-family: var(--ff-serif); } 
+
+.fs-650 { font-size: var(--fs-650); }
+.fs-600 { font-size: var(--fs-600); }
+.fs-400 { font-size: var(--fs-400); }
+.fs-350 { font-size: var(--fs-350); }
+.fs-300 { font-size: var(--fs-300); }
+
+
+/* Andre klasser */
+
+.bakgrunn_3 {
+  position: fixed;
+        width: 100%;
+
+}
+
+/*id tekstbakgrunn for 3. sending */
+
+#manus_3 {
+  position: relative;
+  width: 40%;
+    margin: 0 auto;
+  padding: 1rem 2rem;
+
+   
+}
+
+
+.test {
+  color: red;
+}
