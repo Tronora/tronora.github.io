@@ -180,11 +180,40 @@ select {
   width: 40%;
     margin: 0 auto;
   padding: 1rem 2rem;
+   }
 
+   .blokk {
+    text-align: justify;
+    text-justify: inter-word;
+  }
    
-}
+  .midt {text-align: center;
+    font-size: 48px;
+  }
 
+  .tittel {text-align: center;
+  }
+  
+  .rolle {text-align: center;
+  font-weight: bold;
+ }
 
 .test {
   color: red;
+}
+
+.romskip_nekt {
+    position: absolute;
+  left: 30%;
+  top: 7.5%;
+  width: 40rem;
+  
+}
+
+.blokker_h1 {
+  position: absolute;
+  left: 3ch;
+  top: 5ch;
+  margin:auto;
+  color:hsl( var(--farve-mørkeblå) );
 }
