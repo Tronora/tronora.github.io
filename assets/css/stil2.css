@@ -176,6 +176,21 @@ select {
 
 /*id tekstbakgrunn for 3. sending */
 
+/* .container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 40%;
+  margin: 0 auto;
+  font-family: monospace;
+  color: #9fd3e8;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, .75);
+  padding: 1rem 2rem;
+  
+}
+*/
+
 #manus_3 {
   position: relative;
   width: 40%;
