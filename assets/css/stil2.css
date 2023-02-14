@@ -124,11 +124,12 @@ select {
   gap: var(--gap, 1rem);
 }
 
-.container {
+ .container {
   padding-inline: 2em;
   margin-inline: auto;
   max-width: 80rem;
-}
+} 
+
 
 .sr-only {
   position: absolute;
@@ -182,6 +183,12 @@ select {
   padding: 1rem 2rem;
    }
 
+   @media (max-width: 768px) {
+    #manus_3 {
+      width: 70%;
+  }
+  }
+  
    .blokk {
     text-align: justify;
     text-justify: inter-word;
